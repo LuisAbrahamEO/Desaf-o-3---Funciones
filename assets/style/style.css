@@ -18,3 +18,39 @@ font-weight:bold;
 background:black;
 color:white;
 }
+
+
+
+
+.contenedor{
+text-align:center;
+background:white;
+padding:40px;
+border-radius:10px;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+h1{
+margin-bottom:30px;
+}
+
+.botones{
+display:flex;
+gap:20px;
+justify-content:center;
+}
+
+.botones a{
+text-decoration:none;
+padding:12px 25px;
+background:#0077ff;
+color:white;
+border-radius:6px;
+font-weight:bold;
+transition:0.3s;
+}
+
+.botones a:hover{
+background:#0056cc;
+transform:scale(1.05);
+}
